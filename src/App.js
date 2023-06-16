@@ -1,4 +1,6 @@
 import './App.css';
+import { Header } from './components/Header';
+
 
 function App() {
   return (
@@ -12,14 +14,10 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
             Learn React
-          </a>
+            <Header />
+          
         </p>
       </header>
     </div>
