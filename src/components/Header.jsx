@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div>Header Personalizado</div>
+    <div className='App'>Header Personalizado</div>
   )
 }
